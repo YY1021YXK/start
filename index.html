@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>南京大学软件学院介绍</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      color: #ffffff;
+      background:
+        linear-gradient(rgba(36, 18, 70, 0.86), rgba(36, 18, 70, 0.9)),
+        url("https://www.urongda.com/images/normal/medium/nanjing-university-logo-1024px.png")
+        center / min(58vw, 560px) no-repeat,
+        #321061;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 20px;
+    }
+
+    .content {
+      width: min(920px, 100%);
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: #d8c9ff;
+      font-size: 15px;
+      letter-spacing: 0;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: clamp(36px, 6vw, 68px);
+      line-height: 1.08;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin: 0 0 34px;
+      color: #f3eeff;
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .item {
+      min-height: 136px;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 8px;
+    }
+
+    .item strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .item span {
+      color: #efe8ff;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      color: #dacdff;
+      font-size: 14px;
+    }
+
+    @media (max-width: 760px) {
+      body {
+        background-size: 86vw;
+      }
+
+      .page {
+        align-items: flex-start;
+        padding-top: 40px;
+      }
+
+      .highlights {
+        grid-template-columns: 1fr;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="content">
+      <p class="eyebrow">NANJING UNIVERSITY · SOFTWARE INSTITUTE</p>
+      <h1>南京大学软件学院</h1>
+      <p class="intro">
+        南京大学软件学院成立于 2002 年，是教育部首批国家级示范性软件学院之一。
+        学院围绕软件工程人才培养、关键基础软件、行业应用软件和智能化软件技术开展教学与科研，
+        形成了覆盖本科、硕士和博士阶段的软件工程教育体系。
+      </p>
+
+      <div class="highlights">
+        <article class="item">
+          <strong>学科基础</strong>
+          <span>建有软件工程一级学科博士、硕士学位授权点，软件工程本科专业入选国家级一流本科专业建设点。</span>
+        </article>
+        <article class="item">
+          <strong>实践培养</strong>
+          <span>依托实验教学平台和企业实践基地，强调工程实践、系统设计与真实产业问题训练。</span>
+        </article>
+        <article class="item">
+          <strong>科研方向</strong>
+          <span>聚焦智能软件工程、软件质量保障、开发运维一体化、自然语言处理和计算机网络等方向。</span>
+        </article>
+      </div>
+
+      <p class="footer">以软件工程为核心，连接基础研究、工程实践与产业创新。</p>
+    </section>
+  </main>
+</body>
+</html>
